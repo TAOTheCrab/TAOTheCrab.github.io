@@ -1,0 +1,42 @@
+# TAOTheCrab.github.io
+
+# Site settings
+title: The Adventures of The Crab
+author: Jeffrey Owens
+email: TAOTheCrab@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Another random programmer blog, with maybe a bit of video gaming.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://taothecrab.github.io" # the base hostname & protocol for your site
+twitter_username: TAOTheCrab
+github_username:  TAOTheCrab
+
+timezone: America/Los_Angeles  # A bit overkill, but explicit for eg. Pages
+defaults:
+    -
+        scope:
+            type: "posts"
+        values:
+            author: "Jeffrey Owens"
+
+# Build settings (many mirroring Github's "Configuring Jekyll" defaults)
+markdown: kramdown
+kramdown:
+    input: GFM
+    hard_wrap: false
+gems:
+    - jekyll-coffescript
+    - jekyll-paginate
+permalink: pretty
+exclude:  # Cleanup _site
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+# Settings forced by Github Pages (can change locally, just overridden by Pages)
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
