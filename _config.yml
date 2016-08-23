@@ -19,6 +19,8 @@ defaults:
         values:
             author: "Jeffrey Owens"
 
+theme: minima  # Woo! We Jekyll 3.2 now!
+
 # Build settings (many mirroring Github's "Configuring Jekyll" defaults)
 markdown: kramdown
 kramdown:
