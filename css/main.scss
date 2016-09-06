@@ -8,7 +8,7 @@
 
 // See _sass/minima.scss in minima's gem for overridable values
 
-.post-content{
+.post-content[itemprop="articleBody"]{
     text-indent: 2em;
     img {  // Reverse the indent. ...Newbie mistake of me? Probably
         position: relative;
