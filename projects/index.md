@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Projects
-published: false
+published: true
 ---
 
 # CrabBot
+
+{:.link-icon}
 [{% include icon-github.svg %}](https://github.com/taothecrab/crabbot)
