@@ -16,7 +16,16 @@
     }
 }
 
-.link-icon {
-    width: 40px;
-    height: 40px;
+.project-header {
+    margin-bottom: 5px;
+}
+
+.project-header > a > img {  // link icons (eg. GitHub mark)
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.project-header > a + a > img { // display further icons next to each other
+    margin-left: 3px;
 }

@@ -21,6 +21,8 @@ defaults:
 
 theme: minima  # Woo! We Jekyll 3.2 now!
 
+social-icons: "/assets/social-icons"
+
 # Build settings (many mirroring Github's "Configuring Jekyll" defaults)
 markdown: kramdown
 kramdown:
