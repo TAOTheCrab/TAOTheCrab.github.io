@@ -8,13 +8,13 @@
 
 // See _sass/minima.scss in minima's gem for overridable values
 
-.post-content[itemprop="articleBody"]{
-    text-indent: 2em;
-    img {  // Reverse the indent. ...Newbie mistake of me? Probably
-        position: relative;
-        left: -2em;
-    }
-}
+//.post-content[itemprop="articleBody"]{  // Maybe save the indent for a long-form article. Type?
+//    text-indent: 2em;
+//    img {  // Reverse the indent. ...Newbie mistake of me? Probably
+//        position: relative;
+//        left: -2em;
+//    }
+//}
 
 .project-header {
     margin-bottom: 5px;
