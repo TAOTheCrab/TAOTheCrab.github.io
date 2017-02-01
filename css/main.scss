@@ -3,10 +3,10 @@
 ---
 @charset "utf-8";
 
-// Import partials from the `minima` theme.
-@import "minima";
+// Import partials from the current theme.
+@import "{{ site.theme }}";
 
-// See _sass/minima.scss in minima's gem for overridable values
+// See theme's scss, eg. _sass/minima.scss in minima's gem, for overridable values
 
 //.post-content[itemprop="articleBody"]{  // Maybe save the indent for a long-form article. Type?
 //    text-indent: 2em;
