@@ -45,3 +45,5 @@ incremental: false
 highlighter: rouge
 gist:
     noscript: false
+kramdown:
+    math_engine: mathjax
